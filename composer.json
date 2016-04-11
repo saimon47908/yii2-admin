@@ -1,0 +1,22 @@
+{
+    "name": "saimon47908/yii2-admin",
+    "description": "Yii2 backend admin module for advanced app.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","admin","module"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksey Serov",
+            "email": "saimon47908@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+		"yiisoft/yii2-authclient": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "budyaga\\users\\": ""
+        }
+    }
+}
